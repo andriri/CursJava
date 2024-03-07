@@ -18,7 +18,6 @@ public class TestTester {
 		Tester tester3 = new Tester("Ioana", 34);
 		tester3.afiseazaDetaliiTester();
 		
-		
-	}
+		}
 
 }
