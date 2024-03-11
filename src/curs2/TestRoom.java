@@ -16,5 +16,6 @@ public class TestRoom {
 		Room culoare = new Room (6, 3, "ALB");
 		System.out.println("Culoare dreptunghi este: " + culoare.afiseazaCuloareDreptunghi());
 	}
+	
 
 }
