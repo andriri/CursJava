@@ -12,6 +12,9 @@ public class TestRoom {
 		System.out.println("Perimetru baie este: " + baie.calculPerimetru());
 		System.out.println("Perimetru baie este: " + baie.calculPerimetru());
 		System.out.println("Arie baie este: " + baie.calculArie());
+		
+		Room culoare = new Room (6, 3, "ALB");
+		System.out.println("Culoare dreptunghi este: " + culoare.afiseazaCuloareDreptunghi());
 	}
 
 }

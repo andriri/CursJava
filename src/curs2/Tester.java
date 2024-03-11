@@ -13,7 +13,7 @@ public class Tester {
 	//constructor default = fara parametrii (se poate sa nu il scriem deoarece Java il pune default)
 	//public Tester () {
 		
-	}
+	
 	
 	public Tester(String name, int age) {
 		nume = name;

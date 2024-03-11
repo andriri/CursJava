@@ -3,7 +3,7 @@ package curs2;
 public class ExempluMetoda {
 
 	public static void main(String[] args) {
-		ExempluMetoda ob = new ExempluMetoda();
+		ExempluMetoda obj = new ExempluMetoda();
 		
 		int lungime = 5;
 		int latime = 3;
@@ -24,7 +24,7 @@ public class ExempluMetoda {
 	
 	public void calculPerimetru(int lungime, int latime) {
 		int perimetru = 2* (lungime* + latime);
-		sysout.out.println(perimetru);
+		System.out.println(perimetru);
 	}
 
 }
