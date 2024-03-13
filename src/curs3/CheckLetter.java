@@ -2,7 +2,7 @@ package curs3;
 
 import java.util.Scanner;
 
-//Programa care verifica daca un caracter introdus este litera sau nu
+//Program care verifica daca un caracter introdus este litera sau nu
 //Daca este litera, printam : Character is a letter
 //Daca nu este litera, printam: Character is not a letter
 
