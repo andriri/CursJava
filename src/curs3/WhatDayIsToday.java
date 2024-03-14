@@ -14,7 +14,7 @@ public class WhatDayIsToday {
 	    public void checkDay() {
 	    	askTheUserForADay();
 	    	    	
-	    	if (zi == 0) {
+	    	if (zi <= 0) {
 	    		System.out.println("Te rog sa introduci un numar mai mare ca 0");
 	    	} else if (zi == 1 ) {
 	    		System.out.println("Astazi este luni");
@@ -31,7 +31,7 @@ public class WhatDayIsToday {
 	    	} else if (zi == 7 ) {
 	    		System.out.println("Astazi este duminica");
 	    	} else if (zi > 7 ) {
-	    		System.out.println("”Saptamana are doar 7 zile te rog sa introduci un numar valid");
+	    		System.out.println("Saptamana are doar 7 zile te rog sa introduci un numar valid");
 	    		}
 	    	}
 }

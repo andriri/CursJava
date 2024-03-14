@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class AskTheAge {
 
-	import java.util.Scanner;
 	int age;
 	
 	public void askTheUserAge() {
@@ -22,7 +21,9 @@ public class AskTheAge {
 			System.out.println("Esti adult");
 		} else if (age > 65){
 			System.out.println("Esti batran");
-		}
+		} else if (age < 0 ) {
+    		System.out.println("Introdu o varsta valida mai mare decat zero");
+    	}
 	}
 }
 

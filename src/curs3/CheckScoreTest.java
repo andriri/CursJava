@@ -14,9 +14,9 @@ public class CheckScoreTest {
 
     public void checkScoreIsPassedOrFailed() {
     	askTheUserScore();
-    	if (score >0 && score <65 ) {
+    	if (score >0 && score <=65 ) {
     		System.out.println("Ai picat. Mai incearca");
-    	} else if (score >= 65) {
+    	} else if (score > 65) {
     		System.out.println("Felicitari, Ai trecut");
     	} else {
                 System.out.println("Punctajul introdus nu este valid.");
