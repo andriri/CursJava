@@ -39,8 +39,7 @@ public class SimpleCalculator {
 			System.out.println("Unknown operator");
 		}
 			
-		
-		
+				
 	}
 	 
 }
