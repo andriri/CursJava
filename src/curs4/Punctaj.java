@@ -1,14 +1,17 @@
 package curs4;
 
+import java.util.Scanner;
+
 public class Punctaj {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 
         System.out.print("Introduceti punctajul: ");
         int punctaj = scanner.nextInt();
 
-        String calificativ = (punctaj >= 90) ? "FB" : (punctaj >= 80) ? "B" : "S";
+        String calificativ = (punctaj >= 90) ? "FB" : (punctaj<90&&punctaj >= 80) ? "B" : "S";
 
         System.out.println("Calificativul tau este: " + calificativ);
 
