@@ -1,0 +1,27 @@
+package curs5;
+
+import java.util.Scanner;
+
+public class AdunareNumere {
+
+	public static void main(String[] args) {
+	
+		int number;
+		int sum = 0;
+		
+		for(int i=1; i <=10; i++) {
+			
+			Scanner scan = new Scanner(System.in);	
+			System.out.println("Please enter number " + i + ":" );
+			number = scan.nextInt();
+
+			sum += number;
+		}
+		
+		System.out.println("The sum of the numbers is: " + sum);
+		
+
+			
+	}
+
+}
