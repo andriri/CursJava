@@ -18,7 +18,7 @@ public class CelsiusFarenheit {
 				System.out.println("Introduceti temperatura in grade Celsius " + i + ":" );
 				double temp = scan2.nextDouble();
 				
-				double fTemp = number * 9/5 + 32;
+				double fTemp = temp * 9/5 + 32;
 				
 				System.out.println("Temperatura Celsius de " + temp + " grade este in Farenheit " + fTemp + " grade ");
 				
