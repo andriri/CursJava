@@ -12,7 +12,7 @@ public class TestMostenire {
 		
 		TesterAutomat tester = new TesterAutomat();
 		
-		tester.setProgramingLanguage("Java"); //din clasa TesteAutomat()
+		tester.setProgramingLanguage("Java"); //din clasa TesterAutomat()
 		tester.setSeniority("Senior"); //din clasa Tester()
 		tester.setDepartament("QA"); //din clasa Tester()
 		tester.setEmail("ion@ion.com"); //din clasa Angajat()
