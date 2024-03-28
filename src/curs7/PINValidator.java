@@ -8,23 +8,24 @@ public class PINValidator {
 
 	Scanner scan = new Scanner(System.in);
 	int defaultPin  = 2244;
-	int pin;
+	int enteredPin;
 	int maxAttempts = 3;
 //	int attempts = 0;
 	boolean isValidPin; 
 	
 		
-	for (int attempts = 0; attempts < maxAttempts; attempts++ );
+	for (int attempts = 0; attempts < maxAttempts; attempts++ ); {
 		System.out.println("Introdu codul PIN: ");
-		int enteredPin = scanner.nextInt();
+		int enteredPin = scan.nextInt();
+	}
 	
-	if(pin == defaultPin) {
+	if(enteredPin == defaultPin) {
 			System.out.println("Acces granted");
-			isValidPin = false;
+			break;
 			
 	}else {
 		System.out.println("Wrong PIN ");
-		attempts = attempts +1;
+//      attempts = attempts +1;
 	}
 		
 	if(attempts < maxAttempts -1 ) {
@@ -33,12 +34,11 @@ public class PINValidator {
 	}
 		
 	
-	if (attempts == maxAttempts) {
+	if (attempts == maxAttempts -1) {
 		System.out.println("Maximum attempts reached. Card blocked ");
 		}
     }
-	scanner.close();
+	scann.close();
 }
 
 
-// programul meu
