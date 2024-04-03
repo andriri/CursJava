@@ -6,8 +6,10 @@ public class Mobile extends Product{
 	private int vat; //tva
 	private int adaos;
 	
+	//polimorfism
 	
-	@Override   ///polimorfism
+	@Override 
+
 	public int calculatePrice() {
 		
 		return buyPrice + vat + adaos;
