@@ -1,6 +1,6 @@
 package curs2;
 
-public class Tester {
+public class  {
 	
 	private String nume = "Ion";
 	private int varsta = 33;
