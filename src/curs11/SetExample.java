@@ -40,6 +40,8 @@ public class SetExample {
 		set.remove("Rosu");
 		System.out.println(set);
 		
+		set.clear();
+		System.out.println(set);
 		
 	}
 
