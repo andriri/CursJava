@@ -21,14 +21,14 @@ public class PropertiesFileProcessor {
 		
 		
 		try {
-			OutputStream outputStream = new FileOutputStream("test.properties") ;  //scriem
+			OutputStream outputStream = new FileOutputStream("test.properties") ;  //scriem 
 			
 			Properties propFile = new Properties();
 			propFile.setProperty("hostname", "123456"); //hostname = 123456
 			propFile.setProperty("port", "8080");
 			propFile.setProperty("username", "Test");
 			propFile.setProperty("password", "test123");
-			propFile.store(outputStream, "am salvat fisierul"); 
+			propFile.store(outputStream, "am salvat fisierul"); //creeaza un properties file
 			
 	//		propFile.setProperty(key, value);
 			
