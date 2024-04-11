@@ -21,10 +21,10 @@ public class PropertiesFileProcessor {
 		
 		
 		try {
-			OutputStream outputStream = new FileOutputStream("test.properties") ;  //scriem 
+			OutputStream outputStream = new FileOutputStream("test.properties") ;  //denumim fisierul  test.properties
 			
 			Properties propFile = new Properties();
-			propFile.setProperty("hostname", "123456"); //hostname = 123456
+			propFile.setProperty("hostname", "123456"); //scriem in fisier, dam valori hostname = 123456
 			propFile.setProperty("port", "8080");
 			propFile.setProperty("username", "Test");
 			propFile.setProperty("password", "test123");
